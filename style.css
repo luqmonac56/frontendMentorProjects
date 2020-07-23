@@ -3,7 +3,6 @@
     text-decoration: none;
     list-style: none;
     transition: all 0.3s ease 0s;
-    overflow-x: hidden;
     
 }
 
@@ -15,7 +14,7 @@ body{
     box-sizing: border-box;
     overflow-x: hidden;
     height: auto;
-    width: 100vw;
+    width: 100%;
     line-height: 1.6;
     
 }
@@ -38,7 +37,6 @@ p{
 .mobile-img img{
     height: 78vh;
     width: 100% ;
-    overflow-x: hidden;
 }
 
 .header-text{
