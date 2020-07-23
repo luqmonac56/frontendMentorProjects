@@ -14,8 +14,10 @@ body{
     box-sizing: border-box;
     overflow-x: hidden;
     height: auto;
-    width: 100%;
+    width: 100vw;
     line-height: 1.6;
+    overflow-x: hidden;
+    text-align: center;
     
 }
 
@@ -29,7 +31,7 @@ p{
 .flex .mobile-img{
     background: url(images/bg-intro-mobile.svg);
     height: 90vh;
-    width:100vw;
+    width: auto;
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -47,10 +49,6 @@ p{
     font-size: 45px;
     font-weight: 500;
 
-}
-
-header{
-  overflow-x: hidden;
 }
 
 .header-text p{
@@ -91,9 +89,12 @@ footer .request-invite:hover{
     display: inline-block;
     text-align: center;
     background: linear-gradient(135deg,hsl(136, 65%, 51%),  hsl(192, 70%, 51%));
-    height: 18px;
+    height: 12px;
     width: 150px;
-    padding: 15px;
+    padding-left: 15px ; 
+    padding-right: 15px;
+    padding-bottom: 25px;
+    padding-top: 10px;
     color: #ffffff;
     border-radius: 50px;
     letter-spacing: 1px;
@@ -103,7 +104,7 @@ main .section1{
     background: hsl(220, 16%, 96%);
     padding: 2.5rem;
     margin-top: 120px;
-    margin-bottom: 120px;
+    margin-bottom: 90px;
 }
 
 .section1 .first{
@@ -199,7 +200,9 @@ footer{
     width: 30px;
 }
 
-
+footer ul{
+    padding: 0;
+}
 
 .ul1{
     margin-bottom: 0;
@@ -241,7 +244,6 @@ ul li{
 
 .lastPart .request-invite{
     position: relative;
-    left: 30px;
     margin-top: 0;
 
 }
@@ -249,7 +251,6 @@ ul li{
 
 .lastPart p{
     position: relative;
-    left: 30px;
     margin-top: 20px;
     color: white;
     font-size: 18px;
@@ -294,6 +295,27 @@ a img.social-img:hover{
       a img.social-img:hover{
         background-color:hsla(136, 65%, 51%, 0.849) !important ;
         border-radius: 5px;
+    }
+
+    .lastPart .request-invite{
+        position: relative;
+        left: 30px;
+        margin-top: 0;
+    
+    }
+
+    .ul1{
+        margin-left: 70px;
+    }
+    
+    
+    .lastPart p{
+        position: relative;
+        margin-top: 20px;
+        color: white;
+        left: 20px;
+        font-size: 18px;
+    
     }
 
      
@@ -689,7 +711,3 @@ nav{
         opacity: 1;
     }
 }
-
-
-
-
